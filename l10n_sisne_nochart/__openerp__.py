@@ -21,6 +21,7 @@ This is the base module to manage the accounting chart for Dominican Republic.
         'data/account_tax_template.xml',
         'data/account_fiscal_position_template.xml',
         'data/account_fiscal_position_tax_template.xml',
+        'data/l10n_do_base_data.xml',
         'data/account_chart_template.yml'
 
     ],
