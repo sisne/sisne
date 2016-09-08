@@ -1,35 +1,31 @@
 # -*- coding: utf-8 -*-
+
 {
-    'name': "Account DGII",
-
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
-
+    'name' : 'Evozard 606',
+    'version' : '1.1',
+    'summary': '',
+    'sequence': 30,
     'description': """
-        Long description of module's purpose
+    
+    
     """,
-
-    'author': "sisne, srl",
-    'website': "http://sisne.do",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
-    # for the full list
-    'category': 'Accounting',
-    'version': '0.1',
-
-    # any module necessary for this one to work correctly
-    'depends': ['base', 'account'],
-
-    # always loaded
+    'author': 'Evozard',
+    'category': 'Account',
+    'website': 'http://evozard.com/',
+    'depends' : ['purchase','account'],
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'views/account_invoice_view.xml',
+        'views/partner_view.xml',
+        'views/service_tax_view.xml',
+        'wizard/report_wizard.xml',
+        'demo/purchase_good_category.xml'
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    # 'demo': [
+    #         'demo/purchase_good_category.xml',
+    #         ],
+    'installable': True,
+    'auto_install': False,
 }
+
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
