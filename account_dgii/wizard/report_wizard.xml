@@ -44,8 +44,6 @@
         <field name="target">new</field>
     </record>
 
-     <menuitem id="menu_account_invoice_report_bs" name="Invoice Report" action="action_account_invoice_report_bs" parent="account.menu_finance_reports"/>
-
      <record id="accounting_invoice_report_print_view" model="ir.ui.view">
         <field name="name">account.invoice.report.service</field>
         <field name="model">account.invoice.report.service</field>
@@ -59,6 +57,7 @@
              </form>
         </field>
     </record>
+    
     <record id="accounting_invoice_report_print_view_text" model="ir.ui.view">
         <field name="name">account.invoice.report.service</field>
         <field name="model">account.invoice.report.service</field>

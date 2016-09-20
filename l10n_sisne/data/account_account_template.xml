@@ -165,7 +165,7 @@
         <!-- Otros gastos anticipados 1147 -->
 
         <record id="chart_dr_11470001" model="account.account.template">
-            <field name="code">114720001</field>
+            <field name="code">11470001</field>
             <field name="reconcile" eval="False"/>
             <field name="name">Alquileres anticipados</field>
             <field name="user_type_id" ref="account.data_account_type_current_assets"/>

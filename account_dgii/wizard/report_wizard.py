@@ -55,7 +55,7 @@ class InvoiceReportService(models.TransientModel):
 				'view_type': 'form',
 				'view_mode': 'tree',
 				'res_model': 'account.invoice',
-				'view_id': self.env.ref('606.account_invoice_tree_report').id,
+				'view_id': self.env.ref('account_dgii.account_invoice_tree_report').id,
 				'type': 'ir.actions.act_window',
 				'domain':[('type','in',['in_invoice','in_refund']),('state','not in',['draft','cancel']),('id','in',invoice_ids and invoice_ids.ids or [])],
 				'target': 'current',
