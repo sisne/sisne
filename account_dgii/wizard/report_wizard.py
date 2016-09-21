@@ -243,7 +243,7 @@ class InvoiceReportService(models.TransientModel):
 
 		except:
 			print('Something went wrong! Can\'t tell what?')
-#			sys.exit(0) # quit Python
+			sys.exit(0) # quit Python
 		with open(name, 'r') as myfile:
 			data = myfile.read()
 			myfile.close()
