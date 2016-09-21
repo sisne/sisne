@@ -198,7 +198,7 @@ class InvoiceReportService(models.TransientModel):
 
 	@api.multi
 	def print_text_report(self):
-		name = '606.txt'  # Name of text file coerced with +.txt
+		name = '/home/ubuntu/txt/606.txt'  # Name of text file coerced with +.txt
 		try:
 			file = open(name,'w+')   # Trying to create a new file or open one
 			untaxed_amount = 0.0
