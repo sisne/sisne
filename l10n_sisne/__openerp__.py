@@ -2,12 +2,12 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Dominican Republic - Accounting No Chart',
+    'name': 'Dominican Republic - Accounting',
     'version': '1.0',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Dominican Republic.
-==============================================================================
+This is a base module to manage the accounting for Dominican Republic.
+======================================================================
 
 * The main taxes used in Domincan Republic
 * Fiscal position for local """,
